@@ -1,0 +1,493 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J3
+U 1 1 6143CCB1
+P 5825 3650
+F 0 "J3" H 5875 2425 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 5875 2516 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 5825 3650 50  0001 C CNN
+F 3 "~" H 5825 3650 50  0001 C CNN
+	1    5825 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6143DEDA
+P 5525 4550
+F 0 "#PWR0101" H 5525 4300 50  0001 C CNN
+F 1 "GND" H 5530 4377 50  0000 C CNN
+F 2 "" H 5525 4550 50  0001 C CNN
+F 3 "" H 5525 4550 50  0001 C CNN
+	1    5525 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6143F228
+P 5525 3050
+F 0 "#PWR0102" H 5525 2800 50  0001 C CNN
+F 1 "GND" V 5530 2922 50  0000 R CNN
+F 2 "" H 5525 3050 50  0001 C CNN
+F 3 "" H 5525 3050 50  0001 C CNN
+	1    5525 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6143FA5A
+P 5525 3850
+F 0 "#PWR0103" H 5525 3600 50  0001 C CNN
+F 1 "GND" V 5530 3722 50  0000 R CNN
+F 2 "" H 5525 3850 50  0001 C CNN
+F 3 "" H 5525 3850 50  0001 C CNN
+	1    5525 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6143FF3E
+P 6025 2850
+F 0 "#PWR0104" H 6025 2600 50  0001 C CNN
+F 1 "GND" V 6030 2722 50  0000 R CNN
+F 2 "" H 6025 2850 50  0001 C CNN
+F 3 "" H 6025 2850 50  0001 C CNN
+	1    6025 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 61440824
+P 6025 3250
+F 0 "#PWR0105" H 6025 3000 50  0001 C CNN
+F 1 "GND" V 6030 3122 50  0000 R CNN
+F 2 "" H 6025 3250 50  0001 C CNN
+F 3 "" H 6025 3250 50  0001 C CNN
+	1    6025 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 61440B94
+P 6025 4050
+F 0 "#PWR0106" H 6025 3800 50  0001 C CNN
+F 1 "GND" V 6030 3922 50  0000 R CNN
+F 2 "" H 6025 4050 50  0001 C CNN
+F 3 "" H 6025 4050 50  0001 C CNN
+	1    6025 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 61441FFD
+P 6025 4250
+F 0 "#PWR0107" H 6025 4000 50  0001 C CNN
+F 1 "GND" V 6030 4122 50  0000 R CNN
+F 2 "" H 6025 4250 50  0001 C CNN
+F 3 "" H 6025 4250 50  0001 C CNN
+	1    6025 4250
+	0    -1   -1   0   
+$EndComp
+Text Label 6025 2950 0    50   ~ 0
+TX
+Text Label 6025 3050 0    50   ~ 0
+RX
+Text Label 5525 2750 2    50   ~ 0
+SDA
+Text Label 5525 2850 2    50   ~ 0
+SCL
+$Comp
+L power:+5V #PWR0108
+U 1 1 61443717
+P 6025 2650
+F 0 "#PWR0108" H 6025 2500 50  0001 C CNN
+F 1 "+5V" H 6040 2823 50  0000 C CNN
+F 2 "" H 6025 2650 50  0001 C CNN
+F 3 "" H 6025 2650 50  0001 C CNN
+	1    6025 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 6144406A
+P 5525 2650
+F 0 "#PWR0109" H 5525 2500 50  0001 C CNN
+F 1 "+3.3V" H 5540 2823 50  0000 C CNN
+F 2 "" H 5525 2650 50  0001 C CNN
+F 3 "" H 5525 2650 50  0001 C CNN
+	1    5525 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 61444982
+P 5525 3450
+F 0 "#PWR0110" H 5525 3300 50  0001 C CNN
+F 1 "+3.3V" V 5540 3578 50  0000 L CNN
+F 2 "" H 5525 3450 50  0001 C CNN
+F 3 "" H 5525 3450 50  0001 C CNN
+	1    5525 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 614461E4
+P 2650 2500
+F 0 "#PWR0111" H 2650 2350 50  0001 C CNN
+F 1 "+3.3V" H 2665 2673 50  0000 C CNN
+F 2 "" H 2650 2500 50  0001 C CNN
+F 3 "" H 2650 2500 50  0001 C CNN
+	1    2650 2500
+	1    0    0    -1  
+$EndComp
+Text Label 5525 3350 2    50   ~ 0
+ARM_TRST
+Text Label 6025 3350 0    50   ~ 0
+ARM_RTCK
+Text Label 6025 3450 0    50   ~ 0
+ARM_TDO
+$Comp
+L power:GND #PWR0112
+U 1 1 61447ABC
+P 6025 3550
+F 0 "#PWR0112" H 6025 3300 50  0001 C CNN
+F 1 "GND" V 6030 3422 50  0000 R CNN
+F 2 "" H 6025 3550 50  0001 C CNN
+F 3 "" H 6025 3550 50  0001 C CNN
+	1    6025 3550
+	0    -1   -1   0   
+$EndComp
+Text Label 6025 3650 0    50   ~ 0
+ARM_TCK
+Text Label 5525 4450 2    50   ~ 0
+ARM_TDI
+Text Label 5525 3250 2    50   ~ 0
+ARM_TMS
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_20 J1
+U 1 1 614491FC
+P 2750 3300
+F 0 "J1" H 2221 3346 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_20" H 2221 3255 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 3200 2250 50  0001 L TNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 2400 2050 50  0001 C CNN
+	1    2750 3300
+	1    0    0    -1  
+$EndComp
+Text Label 3350 2800 0    50   ~ 0
+ARM_TRST
+Text Label 3350 3100 0    50   ~ 0
+ARM_RTCK
+Text Label 3350 3200 0    50   ~ 0
+ARM_TCK
+Text Label 3350 3300 0    50   ~ 0
+ARM_TMS
+Text Label 3350 3400 0    50   ~ 0
+ARM_TDO
+Text Label 3350 3500 0    50   ~ 0
+ARM_TDI
+$Comp
+L power:GND #PWR0113
+U 1 1 614546E2
+P 2650 4100
+F 0 "#PWR0113" H 2650 3850 50  0001 C CNN
+F 1 "GND" H 2655 3927 50  0000 C CNN
+F 2 "" H 2650 4100 50  0001 C CNN
+F 3 "" H 2650 4100 50  0001 C CNN
+	1    2650 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 2900
+NoConn ~ 3350 3700
+NoConn ~ 3350 3800
+NoConn ~ 2750 2500
+$Comp
+L Connector:Conn_01x06_Male J2
+U 1 1 6145F054
+P 4700 2075
+F 0 "J2" V 4762 1687 50  0000 R CNN
+F 1 "Conn_01x06_Male" V 4853 1687 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 4700 2075 50  0001 C CNN
+F 3 "~" H 4700 2075 50  0001 C CNN
+	1    4700 2075
+	0    -1   1    0   
+$EndComp
+Text Label 4900 2275 3    50   ~ 0
+TX
+Text Label 4800 2275 3    50   ~ 0
+RX
+$Comp
+L power:GND #PWR0114
+U 1 1 61462AB9
+P 4500 2275
+F 0 "#PWR0114" H 4500 2025 50  0001 C CNN
+F 1 "GND" H 4505 2102 50  0000 C CNN
+F 2 "" H 4500 2275 50  0001 C CNN
+F 3 "" H 4500 2275 50  0001 C CNN
+	1    4500 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 61473FF8
+P 3475 1450
+F 0 "J4" V 3537 1594 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 3628 1594 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 3475 1450 50  0001 C CNN
+F 3 "~" H 3475 1450 50  0001 C CNN
+	1    3475 1450
+	0    1    1    0   
+$EndComp
+Text Label 3275 1650 3    50   ~ 0
+SCL
+$Comp
+L power:GND #PWR0115
+U 1 1 614751B9
+P 3575 1650
+F 0 "#PWR0115" H 3575 1400 50  0001 C CNN
+F 1 "GND" H 3580 1477 50  0000 C CNN
+F 2 "" H 3575 1650 50  0001 C CNN
+F 3 "" H 3575 1650 50  0001 C CNN
+	1    3575 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 61475A23
+P 3475 1650
+F 0 "#PWR0116" H 3475 1500 50  0001 C CNN
+F 1 "+3.3V" H 3490 1823 50  0000 C CNN
+F 2 "" H 3475 1650 50  0001 C CNN
+F 3 "" H 3475 1650 50  0001 C CNN
+	1    3475 1650
+	-1   0    0    1   
+$EndComp
+Text Label 3375 1650 3    50   ~ 0
+SDA
+NoConn ~ 4600 2275
+NoConn ~ 4700 2275
+NoConn ~ 5000 2275
+Text Label 6025 3150 0    50   ~ 0
+GPIO18
+Text Label 5525 4350 2    50   ~ 0
+GPIO19
+Text Label 6025 4450 0    50   ~ 0
+GPIO20
+Text Label 6025 4550 0    50   ~ 0
+GPIO21
+Text Label 4675 4975 1    50   ~ 0
+GPIO21
+Text Label 4575 4975 1    50   ~ 0
+GPIO20
+Text Label 4475 4975 1    50   ~ 0
+GPIO19
+Text Label 4375 4975 1    50   ~ 0
+GPIO18
+$Comp
+L power:GND #PWR0117
+U 1 1 61485D83
+P 4250 4450
+F 0 "#PWR0117" H 4250 4200 50  0001 C CNN
+F 1 "GND" H 4255 4277 50  0000 C CNN
+F 2 "" H 4250 4450 50  0001 C CNN
+F 3 "" H 4250 4450 50  0001 C CNN
+	1    4250 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D4
+U 1 1 6148E2D9
+P 4675 5075
+F 0 "D4" V 4721 5005 50  0000 R CNN
+F 1 "LED_Small" V 4630 5005 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 4675 5075 50  0001 C CNN
+F 3 "~" V 4675 5075 50  0001 C CNN
+	1    4675 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D3
+U 1 1 61491291
+P 4575 5075
+F 0 "D3" V 4621 5005 50  0000 R CNN
+F 1 "LED_Small" V 4530 5005 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 4575 5075 50  0001 C CNN
+F 3 "~" V 4575 5075 50  0001 C CNN
+	1    4575 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D2
+U 1 1 61491A0D
+P 4475 5075
+F 0 "D2" V 4521 5005 50  0000 R CNN
+F 1 "LED_Small" V 4430 5005 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 4475 5075 50  0001 C CNN
+F 3 "~" V 4475 5075 50  0001 C CNN
+	1    4475 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 6149205D
+P 4375 5075
+F 0 "D1" V 4421 5005 50  0000 R CNN
+F 1 "LED_Small" V 4330 5005 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 4375 5075 50  0001 C CNN
+F 3 "~" V 4375 5075 50  0001 C CNN
+	1    4375 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 61492BD4
+P 4375 5275
+F 0 "R1" H 4434 5321 50  0000 L CNN
+F 1 "R_Small" H 4434 5230 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4375 5275 50  0001 C CNN
+F 3 "~" H 4375 5275 50  0001 C CNN
+	1    4375 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 6149F598
+P 4475 5275
+F 0 "R2" H 4534 5321 50  0000 L CNN
+F 1 "R_Small" H 4534 5230 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4475 5275 50  0001 C CNN
+F 3 "~" H 4475 5275 50  0001 C CNN
+	1    4475 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 6149FE2B
+P 4575 5275
+F 0 "R3" H 4634 5321 50  0000 L CNN
+F 1 "R_Small" H 4634 5230 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4575 5275 50  0001 C CNN
+F 3 "~" H 4575 5275 50  0001 C CNN
+	1    4575 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 614A0682
+P 4675 5275
+F 0 "R4" H 4734 5321 50  0000 L CNN
+F 1 "R_Small" H 4734 5230 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4675 5275 50  0001 C CNN
+F 3 "~" H 4675 5275 50  0001 C CNN
+	1    4675 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 614A589B
+P 4525 5475
+F 0 "#PWR0118" H 4525 5225 50  0001 C CNN
+F 1 "GND" H 4530 5302 50  0000 C CNN
+F 2 "" H 4525 5475 50  0001 C CNN
+F 3 "" H 4525 5475 50  0001 C CNN
+	1    4525 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4375 5375 4375 5475
+Wire Wire Line
+	4475 5375 4475 5475
+Wire Wire Line
+	4375 5475 4475 5475
+Connection ~ 4475 5475
+Wire Wire Line
+	4475 5475 4525 5475
+Wire Wire Line
+	4575 5375 4575 5475
+Wire Wire Line
+	4575 5475 4525 5475
+Connection ~ 4525 5475
+Wire Wire Line
+	4675 5375 4675 5475
+Wire Wire Line
+	4675 5475 4575 5475
+Connection ~ 4575 5475
+Text Label 4650 4450 1    50   ~ 0
+GPIO18
+Text Label 4550 4450 1    50   ~ 0
+GPIO19
+Text Label 4450 4450 1    50   ~ 0
+GPIO20
+Text Label 4350 4450 1    50   ~ 0
+GPIO21
+$Comp
+L Connector:Conn_01x05_Male J5
+U 1 1 614D3F95
+P 4450 4650
+F 0 "J5" V 4604 4362 50  0000 R CNN
+F 1 "Conn_01x05_Male" V 4513 4362 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 4450 4650 50  0001 C CNN
+F 3 "~" H 4450 4650 50  0001 C CNN
+	1    4450 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J6
+U 1 1 6149168C
+P 2025 5250
+F 0 "J6" H 1582 5296 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 1582 5205 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 2025 5250 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 1675 4000 50  0001 C CNN
+	1    2025 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 614925EC
+P 2025 5850
+F 0 "#PWR0119" H 2025 5600 50  0001 C CNN
+F 1 "GND" H 2030 5677 50  0000 C CNN
+F 2 "" H 2025 5850 50  0001 C CNN
+F 3 "" H 2025 5850 50  0001 C CNN
+	1    2025 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 61492F4A
+P 2025 4650
+F 0 "#PWR0120" H 2025 4500 50  0001 C CNN
+F 1 "+3.3V" H 2040 4823 50  0000 C CNN
+F 2 "" H 2025 4650 50  0001 C CNN
+F 3 "" H 2025 4650 50  0001 C CNN
+	1    2025 4650
+	1    0    0    -1  
+$EndComp
+Text Label 2525 4950 0    50   ~ 0
+ARM_TRST
+Text Label 2525 5150 0    50   ~ 0
+ARM_TCK
+Text Label 2525 5250 0    50   ~ 0
+ARM_TMS
+Text Label 2525 5350 0    50   ~ 0
+ARM_TDO
+Text Label 2525 5450 0    50   ~ 0
+ARM_TDI
+Wire Wire Line
+	1925 5850 2025 5850
+Connection ~ 2025 5850
+$EndSCHEMATC
